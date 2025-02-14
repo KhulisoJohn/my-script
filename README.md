@@ -20,6 +20,7 @@ Welcome to my **JavaScript Learning Repository**! 🚀 This repository serves as
 
 ## 🛠 Technologies Used
 - **JavaScript (ES6+)**
+- **HTML**
 - No additional libraries or frameworks (unless stated in specific scripts)
 
 ## 📖 Learning Platforms
