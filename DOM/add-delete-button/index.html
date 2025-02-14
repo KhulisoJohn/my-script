@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        const input = document.createElement("input");
+        input.type = "text";
+        input.placeholder = "type in your name";
+        input.classList.add("inputClass");
+        document.body.appendChild(input);
+        const button = document.createElement("button");
+        button.innerText = "Add your name";
+        document.body.appendChild(button);
+button.addEventListener("click", () => {
+   const paragraph = document.createElement("p");
+   const inputElement = document.querySelector(".inputClass");
+   if(inputElement.value.length > 0){
+      paragraph.innerText = inputElement.value
+      document.body.appendChild(paragraph);
+     inputElement.value = "";
+   }
+});
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
