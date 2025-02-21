@@ -13,7 +13,6 @@ Welcome to my **JavaScript Learning Repository**! 🚀 This repository serves as
 ├── 📁 basics          # Fundamental JS concepts (variables, loops, functions, etc.)
 ├── 📁 dom            # DOM manipulation scripts
 ├── 📁 algorithms     # Data structures and algorithms in JS
-├── 📁 projects       # Small projects & mini-apps
 ├── 📁 APIs          # Scripts interacting with APIs
 └── README.md        # You're here!
 ```
